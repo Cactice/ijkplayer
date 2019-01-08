@@ -39,7 +39,7 @@
     IJKFFOptions *options = [[IJKFFOptions alloc] init];
 
     [options setPlayerOptionIntValue:30     forKey:@"max-fps"];
-    [options setPlayerOptionIntValue:0      forKey:@"framedrop"];
+    [options setPlayerOptionIntValue:1      forKey:@"framedrop"];
     [options setPlayerOptionIntValue:3      forKey:@"video-pictq-size"];
     [options setPlayerOptionIntValue:0      forKey:@"videotoolbox"];
     [options setPlayerOptionIntValue:960    forKey:@"videotoolbox-max-frame-width"];
