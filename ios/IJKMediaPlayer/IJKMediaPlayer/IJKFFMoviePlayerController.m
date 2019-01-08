@@ -236,6 +236,7 @@ void IJKFFIOStatCompleteRegister(void (*cb)(const char *url,
         [self setHudValue:nil forKey:@"t-http-seek"];
         
         self.shouldShowHudView = options.showHudView;
+        [options setPlayerOptionIntValue:1 forKey:@"videotoolbox"];
 
         ijkmp_ios_set_glview(_mediaPlayer, _glView);
         ijkmp_set_option(_mediaPlayer, IJKMP_OPT_CATEGORY_PLAYER, "overlay-format", "fcc-_es2");
