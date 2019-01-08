@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <IJKMediaFramework/IJKMediaPlayer.h>
 
 @interface ViewController : UIViewController
-
+@property(atomic, retain) id<IJKMediaPlayback> player;
 
 @end
 
